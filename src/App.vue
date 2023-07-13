@@ -28,6 +28,8 @@
   
 </template>
 
-<style scoped>
+<style>
+
+@use ""
 
 </style>
