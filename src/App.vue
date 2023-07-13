@@ -21,6 +21,7 @@
 
 <template>
   <HeaderComponent/>
+  
 
   <MainComponent/>
 
@@ -28,8 +29,8 @@
   
 </template>
 
-<style>
+<style lang="scss">
+@use "./assets/scss/variables.scss"
 
-@use ""
 
 </style>
