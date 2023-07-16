@@ -11,7 +11,9 @@
 
 <template>
     <footer>
-        FOOTER
+        <section class="footer-links">
+          
+        </section>
     </footer>
 </template>
 
@@ -20,6 +22,15 @@
     
 
 
-<style scoped>
+<style scoped lang="scss">
+
+.footer-links {
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
 
 </style>
