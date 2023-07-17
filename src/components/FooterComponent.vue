@@ -170,8 +170,38 @@
           </div>
         </section>
 
-        <section>
-            
+        <section class="footer-bottom">
+            <div>
+                <a href="#">
+                    SIGN-UP NOW!
+                </a>
+            </div>
+
+            <div class="footer-icons">
+                
+                <a href="#" class="follow">
+                    FOLLOW US
+                </a>
+
+                <div>
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                </div>
+                <div>
+                    <img src="../assets/img/footer-periscope.png" alt="">
+                </div>
+                    
+               
+                    
+            </div>
         </section>
           
     </footer>
@@ -235,6 +265,41 @@
        
     }
   }
+
+}
+
+.footer-bottom {
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+    div {
+        // border: 2px solid #1265B2;
+        padding: 10px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+    }
+
+    .footer-icons {
+        > .follow {
+            color: #1265B2;
+            vertical-align: middle;
+        }
+
+        div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    }
+
 
 }
 
